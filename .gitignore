@@ -20,4 +20,5 @@ logs/
 
 # User-specific files
 .claude-last-activity*
-.claude-auto-renew*
+.claude-auto-renew*.env
+*.env.local
