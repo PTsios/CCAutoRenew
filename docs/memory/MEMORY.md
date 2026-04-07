@@ -186,3 +186,6 @@ No open issues or in-progress features are evident from the codebase. The projec
 - Daily restart works by adding 86400 seconds (1 day) to start/stop epoch timestamps.
 - All scripts use `#!/bin/bash` shebang and require Bash 4.0+ for features like `BASH_REMATCH`.
 - The `dash` command requires the daemon to be running and refreshes every 60 seconds.
+
+- [Multi-machine sync](project_multimachine_sync.md) — chezmoi+SOPS+hooks auto-sync MacBook↔Mac Mini; 6 active projects, /onboard, run-bot launcher
+- [Trust auto-sync](feedback_autosync_trust.md) — don't manually push/pull, don't clean wip-commits, don't edit live ~/.claude files
